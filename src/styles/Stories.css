@@ -1,0 +1,57 @@
+.stories-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: center;
+  padding: 20px 0 70px 0;
+}
+.stories-loading {
+  display: flex;
+  justify-content: center;
+  height: 330px;
+  align-items: center;
+}
+
+.story-card {
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  width: 300px;
+  padding: 16px;
+}
+
+.story-card:hover {
+  transform: translateY(-4px);
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.story-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #000;
+  margin-bottom: 8px;
+}
+
+.story-title a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.story-title a:hover,
+.story-title a:focus {
+  outline: none;
+}
+.story-description {
+  display: flex;
+  flex-direction: column;
+}
+.story-content {
+  display: flex;
+  font-size: 14px;
+  color: #666666;
+  justify-content: right;
+}

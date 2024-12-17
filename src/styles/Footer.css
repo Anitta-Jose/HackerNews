@@ -1,0 +1,39 @@
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+  text-align: center;
+  padding: 8px 0;
+  z-index: 1000;
+}
+
+.footer-line {
+  border: none;
+  height: 2px;
+  background-color: #ff6600;
+  margin: 0 0 8px 0;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  font-size: 14px;
+  color: #000;
+}
+
+.footer-links a {
+  color: #000;
+  text-decoration: none;
+}
+
+.footer-links a:hover,
+.footer-links a:focus {
+  color: #ff6600;
+}
+
+.footer-links span {
+  color: #888;
+}
